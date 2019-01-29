@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skips="0" tests="3" time="0.023">
+<testcase classname="basic exercise.test_txt01" file="basic exercise/test_txt01.py" line="7" name="test_answer" time="
+0.0010564327239990234"></testcase><testcase classname="basic exercise.test_txt02" file="basic exercise/test_txt02.py"
+line="8" name="test_mytest" time="0.0011811256408691406"></testcase><testcase classname="basic exercise.test_txt02"
+file="basic exercise/test_txt02.py" line="13" name="test_sum" time="0.001756906509399414"></testcase></testsuite>
