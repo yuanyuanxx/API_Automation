@@ -10,7 +10,7 @@ def check_get_read_period(params=None, status_exp=0):
         cb.checkResultIsNotNone(resp_act['totalCount'])
 
         # 返回items个数
-        item_count = len(resp_act['items'])
+        item_count = len(resp_act['items'])it push --set-upstream origin master
 
         # 未传入参数
         if params is None:
