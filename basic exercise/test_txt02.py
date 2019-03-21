@@ -1,17 +1,6 @@
 import pytest
+import allure
 
-def add(a,b):
-    return a+b
-
-def f():
-    raise SystemExit(1)
-
-def test_mytest():
-    with pytest.raises(SystemExit):
-        print(f())
-
-
-def test_sum():
-   assert  add(2,4)==6
-
-
+@allure.feature('测试方法1')
+def test_passing():
+    assert (1,2)==(1,2)
