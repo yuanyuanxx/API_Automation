@@ -1,9 +1,11 @@
 import  os,json,codecs
 import unittest
+import sys
 print(os.getcwd())
+#sys.path.append('/Users/yuanyuan/PycharmProjects/pytest/API_Automation/data')
 
 def get_case():
-    with codecs.open('data.json','r',encoding='utf-8') as jsonfile:
+    with codecs.open('/Users/yuanyuan/PycharmProjects/pytest/API_Automation/Testcase/data.json','r',encoding='utf-8') as jsonfile:
         f_dict=json.load(jsonfile)
         for collection,cases in f_dict.items():
             for case in cases['interface_info']:
