@@ -1,7 +1,7 @@
-from API_AuCommon.RunMethon import RunMethon
-from Config.testinterfance_info import InterInfo
-import json
-from Common import check
+# from API_AuCommon.RunMethon import RunMethon
+# from Config.testinterfance_info import InterInfo
+# import json
+# from Common import check
 
 
 # class TestBaseDemo():

@@ -8,11 +8,11 @@ import logging
 import logging.config
 from os import  path
 
-#---调用记录日志的配置文件-----
-Con_Log_path = path.join(path.dirname(path.abspath(__file__)),'../Config/log.conf')
-logging.config.fileConfig(Con_Log_path)
-logging=logging.getLogger()
-#---调用记录日志的配置文件-----
+# #---调用记录日志的配置文件-----
+# Con_Log_path = path.join(path.dirname(path.abspath(__file__)),'../Config/log.conf')
+# logging.config.fileConfig(Con_Log_path)
+# logging=logging.getLogger()
+# #---调用记录日志的配置文件-----
 
 data_list = ReadExcel.excel_to_list('../data/test_user_data.xlsx', 'userlogin')
 @pytest.mark.parametrize('casename',['test_user_login_normal01','test_user_login_wrong','test_user_login_normal02'])
