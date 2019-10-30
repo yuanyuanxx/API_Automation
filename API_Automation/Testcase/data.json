@@ -1,0 +1,64 @@
+{
+  "TestHttpMethods":
+    {
+      "interface_info": [
+        {
+          "interface_method": "get",
+          "method": "get",
+          "headers": null,
+          "url_data": null,
+          "data": {"test": "testdata"},
+          "params": null,
+          "auth": null,
+          "cookies": null,
+          "hooks": null,
+          "json": null,
+          "except": [200]
+        },
+        {
+          "interface_method": "post",
+          "method": "post",
+          "headers": null,
+          "url_data": null,
+          "data": {"test": "testdata"},
+          "params": null,
+          "auth": null,
+          "cookies": null,
+          "hooks": null,
+          "json": null,
+          "except": [200]
+        }
+      ]
+    },
+  "TestAuth":
+    {
+      "interface_info": [
+        {
+          "interface_method": "basic-auth",
+          "method": "get",
+          "headers": null,
+          "url_data": ["testuser", "testpasswd"],
+          "data": null,
+          "params": null,
+          "auth": ["testuser", "testpasswd"],
+          "cookies": null,
+          "hooks": null,
+          "json": null,
+          "except": [200]
+        },
+        {
+          "interface_method": "bearer",
+          "method": "get",
+          "headers": {"Authorization": "justtestauth"},
+          "url_data": null,
+          "data": null,
+          "params": null,
+          "auth": null,
+          "cookies": null,
+          "hooks": null,
+          "json": null,
+          "except": [200]
+        }
+      ]
+    }
+}
