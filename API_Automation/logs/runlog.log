@@ -22,3 +22,15 @@
 2019-10-29 20:29:01,671 test_excel_userlogin.py[line:31]INFO<h1>失败，用户名或密码错误</h1>
 2019-10-29 20:29:01,674 test_excel_userlogin.py[line:20]INFO======用户登陆功能测试=============
 2019-10-29 20:29:01,725 test_excel_userlogin.py[line:31]INFO<h1>登录成功</h1>
+2019-10-30 14:46:57,185 test_excel_userlogin.py[line:20]INFO======用户登陆功能测试=============
+2019-10-30 14:46:57,234 test_excel_userlogin.py[line:31]INFO<h1>登录成功</h1>
+2019-10-30 14:46:57,236 test_excel_userlogin.py[line:20]INFO======用户登陆功能测试=============
+2019-10-30 14:46:57,307 test_excel_userlogin.py[line:31]INFO<h1>失败，用户名或密码错误</h1>
+2019-10-30 14:46:57,309 test_excel_userlogin.py[line:20]INFO======用户登陆功能测试=============
+2019-10-30 14:46:57,365 test_excel_userlogin.py[line:31]INFO<h1>登录成功</h1>
+2019-10-30 15:23:20,419 test_excel_userlogin.py[line:20]INFO======用户登陆功能测试=============
+2019-10-30 15:23:20,462 test_excel_userlogin.py[line:30]INFO<h1>登录成功</h1>
+2019-10-30 15:23:20,464 test_excel_userlogin.py[line:20]INFO======用户登陆功能测试=============
+2019-10-30 15:23:20,524 test_excel_userlogin.py[line:30]INFO<h1>失败，用户名或密码错误</h1>
+2019-10-30 15:23:20,525 test_excel_userlogin.py[line:20]INFO======用户登陆功能测试=============
+2019-10-30 15:23:20,580 test_excel_userlogin.py[line:30]INFO<h1>登录成功</h1>

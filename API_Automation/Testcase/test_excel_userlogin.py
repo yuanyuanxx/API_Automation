@@ -18,7 +18,6 @@ data_list = ReadExcel.excel_to_list('../data/test_user_data.xlsx', 'userlogin')
 @pytest.mark.parametrize('casename',['test_user_login_normal01','test_user_login_wrong','test_user_login_normal02'])
 def test_user_login_normal(casename):
     logging.info("======用户登陆功能测试=============")
-   # data_list = ReadExcel.excel_to_list('../data/test_user_data.xlsx', 'userlogin')
     case_data = ReadExcel.get_test_data(data_list,casename)
     if not case_data:
         print('用例数据不存在')
