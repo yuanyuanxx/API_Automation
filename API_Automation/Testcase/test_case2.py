@@ -28,3 +28,6 @@ def test_login(login):
     print(result)
     # print("测试用例中login的返回值：%s" % result)
     # assert result['status'] == 202
+
+
+

@@ -5,6 +5,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="Testcase.test_dbassert.API_Automation" />
+          <option value="Testcase.test_excel_userlogin.API_Automation" />
         </list>
       </option>
     </inspection_tool>

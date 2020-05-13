@@ -25,12 +25,19 @@ def pytest_runtest_makereport(item, call):
     report = outcome.get_result()
     report.description = str(item.function.__doc__)
     report.nodeid = report.nodeid.encode("utf-8").decode("unicode_escape")
+
 #测试报告中加入说明代码
 #测试报告中加入symmary处加入测试人员姓名
 @pytest.mark.optionalhook
 def pytest_html_results_summary(prefix,summary,postfix):
     prefix.extend([html.p('测试人：周圆')])
 
+#pytesthook函数测试用例收集完成时，将收集到的item的name和nodeid的中
+# 文显示在控制台上，防止中文出现乱码
+def pytest_collection_modifyitems(items):
+    for item in items:
+        item.name = item.name.encode("utf-8").decode("unicode_escape")
+        #item._nodeid = item.nodeid.encode("utf-8").decode("unicode_escape")
 
 
 @pytest.fixture(scope='session')
